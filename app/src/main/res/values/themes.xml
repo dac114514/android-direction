@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BackHome" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#FF6B35</item>
+        <item name="colorPrimaryVariant">#E85A28</item>
+        <item name="colorSecondary">#0066CC</item>
+        <item name="colorSecondaryVariant">#0052A3</item>
+        <item name="colorError">#B3261E</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

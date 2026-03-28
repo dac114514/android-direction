@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- 标题 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="回家"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <!-- 家的名称 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="家的名称"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edit_bg"
+        android:hint="如：我的家"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#AAAAAA"
+        android:textSize="18sp" />
+
+    <!-- 家的地址 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="家庭住址"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edit_bg"
+        android:hint="如：北京市朝阳区xxx街道"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#AAAAAA"
+        android:textSize="18sp" />
+
+    <!-- 显示信息 -->
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/info_bg"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="请输入地址并点击保存"
+        android:textColor="#666666"
+        android:textSize="16sp" />
+
+    <!-- 保存按钮 -->
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_save_bg"
+        android:text="保存地址"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- 导航按钮 -->
+    <Button
+        android:id="@+id/btn_navigate"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_nav_bg"
+        android:text="导航回家"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

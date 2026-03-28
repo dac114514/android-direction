@@ -1,0 +1,7 @@
+.gradle
+.idea
+build
+*.apk
+*.apks
+*.aab
+.DS_Store
